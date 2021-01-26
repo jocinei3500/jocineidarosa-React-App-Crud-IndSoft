@@ -1,0 +1,43 @@
+.usuario-list{
+    margin: 5px auto 0;
+    padding: 0px;
+    max-width: 700px;
+}
+
+.usuario-list article{
+    background: rgb(204, 185, 185);
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px 20px 5px 20px;
+    margin-bottom: 20px;
+}
+
+.usuario-list article p{
+    font-size: 16px;
+    color: dimgray;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.usuario-list article a{
+    height: 42px;
+    border-radius: 2px;
+    border: 2px solid black;
+    background: none;
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70%;
+}
+
+.usuario-list article a:hover{
+    background:rgb(137, 21, 167);
+    color: #fff;
+}
+
+
